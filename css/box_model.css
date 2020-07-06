@@ -1,0 +1,42 @@
+body{
+    background-image: url("../imgs/Quality-Coders-FI.jpg") ;
+    background-size: cover;
+}
+#d0{
+    width: 800px;
+    height: 1000px;
+    background: white;
+    margin: 100px auto;
+}
+#d1{
+    width: 800px;
+    height: 200px;
+    background: darkgray;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 250px;
+}
+#d2{
+    float: left;
+    width: 200px ;
+    height: 900px ;
+    background: #e7e0e0;
+    margin-left: 30px;
+    margin-top: -150px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+#d3{
+    float: left;
+    width: 500px ;
+    height: 900px ;
+    margin-left: 30px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 9px;
+}
+#d3 > p{
+    text-align: justify ;
+}
+
