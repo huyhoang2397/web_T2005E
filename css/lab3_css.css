@@ -1,0 +1,86 @@
+*{
+    /* * là tất cả các thẻ*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  'Muli', sans-serif;
+    font-size: 14px;
+    color: #353434;
+    line-height: 1.5;
+    font-weight: 400;
+    background-image: url("https://cellphones.com.vn/sforum/wp-content/uploads/2020/04/jfl-geometric-wallpaper-splash-1.jpg");
+}
+#page{
+    width: 1000px;
+    margin: auto;
+}
+#top{
+    float: left;
+    width: 100%;
+    background: #bac3cc;
+    text-align: center;
+}
+#bottom{
+    float: left;
+    width: 1000px;
+    background-color: #ffffff;
+}
+#top h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 50px 0px 0px;
+
+}
+#top h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+#left {
+    width: 250px;
+    float: left;
+    margin-left: 40px;
+    padding: 35px;
+    background-color: #e7e7e7;
+    margin-top: -150px;
+}
+#left #ava{
+    border-radius: 100%;
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+}
+#ava img{
+    width: 100%;
+    height: auto;
+}
+#left h3,#right h3{
+    font-size: 23px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+#left p{
+    font-size: 18px;
+    margin: 8px 0;
+}
+#left hr,#right hr{
+    border: 1px solid #a1a1a1;
+    margin-top: 25px;
+}
+#left a{
+    text-decoration: none;
+    color: #343132;
+}
+#left p i{
+    font-size: 18px;
+    margin-right: 4px;
+}
+#right{
+    width: calc(100% - 290px);
+    float: right;
+    padding: 30px
+}
