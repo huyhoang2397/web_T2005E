@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: #151515;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.5;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* header*/
+.header{
+    padding: 25px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 60px;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: right;
+    width: 70%;
+}
+.logo a{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #343132;
+    font-weight: 400;
+}
+.menu{
+    float: right;
+    margin-top: 13px;
+}
+.menu li{
+    float: left;
+    margin-left: 35px;
+    color: #c6c8c3;
+}
+.menu li a{
+    font-size: 18px;
+    color: #c6c8c3;
+    text-decoration: none;
+    transition: all 150ms;
+}
+/*.menu li:nth-child(2n) =>> vi tri chan*/
+/*.menu li:nth-child(2n+1) =>> vi tri le*/
+.menu li:first-child{
+    list-style: none;
+}
+.menu li a:hover{
+    color: #343132;
+}
+.content{
+    float: left;
+    width: 66.67%;
+    padding-right: 15px;
+}
+.sidebar{
+    float: right;
+    width: 33.33%;
+    padding-left: 15px;
+}
+.content .tweet{
+    background-image: url("../imgs/bg.PNG");
+    background-size: 100% auto;
+    float: left;
+    width: 100%;
+}
+.tweet .tweet-content{
+    background-color: #ff253a95;
+    float: left;
+    width: 100%;
+    padding: 30px;
+}
+.tweet h2{
+    font-size: 20px;
+    color: #ffffff;
+}
+.tweet p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.content .post{
+    background-color: #ffffff;
+    float: left;
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+}
+.content .post h2{
+    font-size: 20px;
+    color: #494645;
+    margin-bottom: 30px;
+}
+.content .post p{
+    font-size: 16px;
+    color: #a5a6a1;
+    margin-bottom: 10px;
+}
+.button{
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color:#f2795a ;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*width: 180px;*/
+    /*height: 50px;*/
+    display: inline-block;
+    margin: 60px auto;
+    border-radius: 12px;
+    transition: all 200ms;
+}
+.button:hover {
+    color: blue;
+}
+.sidebar .recent{
+    float: left;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 30px;
+}
+
+.sidebar .recent dt{
+    font-size: 20px;
+    font-weight: 600;
+    color: #343132;
+    margin-bottom: 20px;
+}
+.sidebar .recent dt i{
+    font-weight: bold;
+    font-size: 30px;
+    color: #343132;
+    margin-bottom: 10px;
+}
+.sidebar li i{
+    font-size: 80px;
+    color: #ff253a;
+    margin-bottom: 10px;
+}
+.sidebar li:nth-child(n){
+    list-style: none;
+}
+.sidebar .categories{
+    float: left;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+}
+.sidebar .categories dt{
+    font-size: 20px;
+    font-weight: 600;
+    color: #343132;
+    margin-bottom: 20px;
+}
+/*Bước 1: chia layout
+Bước 2: Container
+Bước 3: Group, có 2 nguyên tắc: vị trí, nội dung
+Bước 4: chi tiết*/
+/*!important: ep kieu bat buoc, bo qua thu tu*/
