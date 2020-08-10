@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    background-color: #6e6943;
+    margin-top: -60px;
+}
+
+.header{
+    padding: 25px 0;
+    background-image: url("../imgs/practical/menu.jpg");
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.top{
+    height: 70%;
+}
+.right{
+    float: right;
+    width: 70%;
+}
+.menu{
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.menu li{
+    float: left;
+    margin-left: 35px;
+    color: #c6c8c3;
+}
+.menu li a{
+    font-size: 25px;
+    color: #c8c594;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 150ms;
+}
+.menu li:nth-child(2n){
+    list-style: none;
+}
+.menu li:nth-child(2n+1){
+    list-style: none;
+}
+.menu li a:hover{
+    color: #343132;
+}
+.bot{
+    color: #221d01;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bot .left{
+    padding-top: 20px;
+    padding-left: 650px;
+}
+.bot .right1{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.content{
+    padding: 40px;
+    border-right: 1px solid #625d37;
+    font-size: 16px;
+    color: #251f0d;
+}
+.post h1{
+    margin-top: 30px;
+    font-weight: 600;
+    color: #1a1500;
+    border-bottom: 1px solid #625d37;
+}
+.post p{
+    margin-top: 30px;
+}
+.sidebar p{
+    color: #d4d3b4;
+    font-size: 18px;
+}
+.sidebar{
+    margin-top: 20px;
+}
